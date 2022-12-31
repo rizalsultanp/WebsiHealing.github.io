@@ -1,0 +1,493 @@
+html {
+    position: relative;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+nav.navbar {
+    font-family: 'montserrat';
+    color: #eaeaea !important;
+    background-color: #f5f5f5 !important;
+    box-shadow: 1px 1px 10px #bdbdbd;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+li a {
+    display: flex;
+}
+
+section {
+    padding-top: 1rem;
+}
+
+div.content {
+    padding-top: 4rem;
+}
+
+figure {
+    padding-top: 1rem;
+    background-attachment: fixed;
+}
+
+.logo {
+    color: #000 !important;
+    font-weight: bold !important;
+    font-family: cursive, sans-serif;
+    font-size: 24px;
+    /* color: #eaeaea !important; */
+}
+
+.brand1 {
+    margin-left: -8px;
+}
+
+.bi-book {
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+li a {
+    color: #000 !important;
+    /* color: #eaeaea !important; */
+    margin: 10px;
+
+}
+
+nav li a:hover {
+    color: #757575 !important;
+}
+
+.media {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8rem;
+}
+
+.media a {
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 22px;
+    color: #37474f;
+}
+
+.media i:hover {
+    transition: 200ms;
+    display: inline-block;
+    color: #000;
+    transform: translate(0, 10px);
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+
+.media .bi-facebook:hover {
+    color: #1976d2 !important;
+}
+
+.media .bi-whatsapp:hover {
+    color: #64dd17 !important;
+}
+
+.media .bi-instagram:hover {
+    color: palevioletred !important;
+}
+
+
+.content {
+    width: 80%;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('../font/Karla-VariableFont_wght.ttf');
+}
+
+.container-fluid>.tema>h1 {
+    font-family: 'Rubik';
+    text-transform: capitalize;
+    color: #424242;
+    font-weight: 600;
+}
+
+.content .col-md-4 {
+    color: #78909c;
+    font-family: 'Rubik';
+}
+
+div section .row {
+    margin-top: 20px;
+    color: #424242;
+}
+
+figcaption h3 {
+    font-family: 'Rubik';
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+article {
+    font-family: 'Karla';
+    color: #424242;
+}
+
+p {
+    word-spacing: 1.1px;
+}
+
+
+.ig {
+    display: inline-block;
+    opacity: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    transform: translate(-15px, 0);
+    -webkit-transform: translate(-15px, 0);
+    -moz-transform: translate(-15px, 0);
+    -ms-transform: translate(-15px, 0);
+    -o-transform: translate(-15px, 0);
+}
+
+.fb {
+    display: inline-block;
+    opacity: 0;
+    transition: .8s;
+    transform: translate(-25px, 0);
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    -webkit-transform: translate(-25px, 0);
+    -moz-transform: translate(-25px, 0);
+    -ms-transform: translate(-25px, 0);
+    -o-transform: translate(-25px, 0);
+}
+
+.wa {
+    display: inline-block;
+    opacity: 0;
+    transition: .8s;
+    transform: translate(-35px, 0);
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    -webkit-transform: translate(-35px, 0);
+    -moz-transform: translate(-35px, 0);
+    -ms-transform: translate(-35px, 0);
+    -o-transform: translate(-35px, 0);
+}
+
+
+.igMuncul,
+.fbMuncul,
+.waMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.kawahPutih {
+    display: block;
+    opacity: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.kawahPutihMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.kpSatu,
+.kpDua {
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.kpSatuMuncul,
+.kpDuaMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+/* cikole */
+.cikole {
+    display: block;
+    opacity: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.cikoleMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.cSatu,
+.cDua {
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.cSatuMuncul,
+.cDuaMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+/* heuleut */
+.heuleut {
+    display: block;
+    opacity: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.heuleutMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.hSatu,
+.hDua {
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.hSatuMuncul,
+.hDuaMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+/* cafe & resto kastil */
+.mercusuar {
+    display: block;
+    opacity: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.mercusuarMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.mSatu,
+.mDua {
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.mSatuMuncul,
+.mDuaMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+/* Kiara-Artha-Park */
+.Kiara-Artha-Park {
+    display: block;
+    opacity: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.Kiara-Artha-ParkMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.kSatu,
+.kDua,
+.bebas {
+    opacity: 0;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transform: translate(0, 50px);
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -ms-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+}
+
+.kSatuMuncul,
+.kDuaMuncul,
+.bebasMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+
+/* footer */
+footer {
+    background-color: #212121;
+    text-transform: capitalize;
+    color: #eee;
+    font-size: 14px;
+}
+
+/* footer .col-md-4 p {
+    color: #bdbdbd;
+} */
+
+footer ul li a {
+    color: #bdbdbd !important;
+}
+
+footer h6 {
+    margin-left: 10px;
+}
+
+/* .company a,
+.list-inline a {
+    color: #bdbdbd !important;
+} */
